@@ -1,0 +1,42 @@
+
+@media (max-width: 500px) {
+  
+  
+  #header .menu ul {
+   
+    text-align: center;
+   
+  }
+ 
+  #header .menu input + ul{
+    display: none;
+  }
+  
+  #header .menu input:checked + ul{
+    display: block;
+  }
+
+  #header{
+    grid-template-columns: 1fr;
+  } 
+
+  #header nav input{
+    display: block
+  }
+
+  .intro{
+    font-size: 0.7rem;
+  }
+
+  .landing {
+    padding: 0px 0px 50px 0px;
+    gap: 20px
+  }
+
+  .footer .contenido_footer{
+   
+    grid-template-columns: 1fr; 
+    justify-items: center;
+  }
+
+}
