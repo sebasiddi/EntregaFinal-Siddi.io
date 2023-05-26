@@ -7,26 +7,10 @@
   box-sizing: border-box;
 }
 
-
-a:link {
+a {
   text-decoration: none;
-  color: black
+  color: black;
 }
-a:visited {
-  text-decoration: none;
-  color: black
-}
-
-a:hover {
-  text-decoration: none;
-  color: black
-}
-
-a:active {
-  text-decoration: none;
-  color: black
-}
-
 
 /* ****************   CSS própio ****************   */
 
@@ -39,7 +23,6 @@ a:active {
   top: 0;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 0px 20px;
   justify-content: space-between;
   align-items: center;
   z-index: 1;
