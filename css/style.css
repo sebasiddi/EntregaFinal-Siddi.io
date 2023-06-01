@@ -18,47 +18,28 @@ a {
 
 #header {
   font-family: 'NTR', serif;
-  background-color: rgb(255, 255, 255);
-  position: sticky;
-  top: 0;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  justify-content: space-between;
-  align-items: center;
-  z-index: 1;
+  font-weight: bolder;
 }
 
 #header nav input{
   display: none;
 }
 
-#header .logo {
-  font-size: small;
-  color: #000000;
-  margin: 0px;
-  font-family: 'NTR', serif;
-  padding-left: 20px;
+.menu-container{
+  display: flex !important;
+  align-items: flex-end !important;
+  align-content: flex-end;
 }
 
+.nav-link:hover{
+  color: white !important;
+  background-color: black;
+ }
 
-#header .menu ul {
-  display: flex;
-  list-style: none;
-  font-family: 'NTR', serif;
-}
-
-#header .menu ul li a {
-  color: #000000;
-  text-decoration: none;
-  display: inline;
-  margin-right: 20px;
-  padding: 0px 15px;
-}
-
-#header .menu ul li a:hover {
-  color: white;
-  background-color: #000000;
-}
+ .dropdown-item:hover{
+  color: white ;
+  background-color: black;
+ }
 
 
 /* ****************   Main ****************   */
@@ -159,6 +140,11 @@ a {
 
 .landing .escudos {
   display: block;
+}
+
+.landing .escudos a{
+  text-decoration: none;
+  color: #000000;
 }
 
 .landing .escudos a img{
