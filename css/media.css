@@ -1,42 +1,76 @@
 
-@media (max-width: 500px) {
+@media (max-width: 700px) {
   
-  
-  #header .menu ul {
-   
-    text-align: center;
-   
-  }
- 
-  #header .menu input + ul{
-    display: none;
-  }
-  
-  #header .menu input:checked + ul{
-    display: block;
-  }
-
-  #header{
-    grid-template-columns: 1fr;
-  } 
-
-  #header nav input{
-    display: block
-  }
-
   .intro{
     font-size: 0.7rem;
   }
-
+  
   .landing {
-    padding: 0px 0px 50px 0px;
-    gap: 20px
+    grid-template-columns: 1fr;
+    gap: 50px;
   }
+  
+  
+  .titulo {
+    text-align: center;
+    color: #444444;
+    font-weight: 200;
+    font-size: 30px;
+    padding-top: 20px;
+  } 
+
 
   .footer .contenido_footer{
-   
     grid-template-columns: 1fr; 
     justify-items: center;
+    gap: 30px;
+    padding: 10px 10px;
+  }
+  
+  .footer-newsletter{
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    align-content: center;
   }
 
+  .footer-newsletter form{
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    align-content: center;
+  }
+  .suscripcion h4{
+    font-size: 18px;
+    text-align: center;
+  }
+  
+  .footer .contenido_footer .footer_redes {
+    text-align: center;
+    font-size: 18px;
+  }
+  
+  .copyright {
+    padding-top: 20px;
+    font-size: 14px;
+  }
+  
+  .intro h1{
+    font-size: 22px;
+    font-weight: bolder;
+  }
+  
+    .reglamento .pdf{
+      width: 500px;
+    }
+  
+  
+  
+  
+    .formulario-contacto{
+      padding: 0% 5%;
+      border-radius: 20px;
+      font-family: 'NTR', sans-serif;
+    }
 }

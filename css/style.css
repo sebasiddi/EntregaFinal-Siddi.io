@@ -12,6 +12,10 @@ a {
   color: black;
 }
 
+
+ol, ul {
+  padding-left: 0;
+}
 /* ****************   CSS própio ****************   */
 
 /* ****************   Header ****************   */
@@ -19,24 +23,15 @@ a {
 #header {
   font-family: 'NTR', serif;
   font-weight: bolder;
-}
+  }
 
-#header nav input{
-  display: none;
-}
-
-.menu-container{
-  display: flex !important;
-  align-items: flex-end !important;
-  align-content: flex-end;
-}
 
 .nav-link:hover{
   color: white !important;
   background-color: black;
  }
 
- .dropdown-item:hover{
+ .dropdown-menu li a:hover{
   color: white ;
   background-color: black;
  }
@@ -50,6 +45,7 @@ a {
   width: 100%;
   text-align: center;
   color: #444444;
+  padding-bottom: 50px;
 }
 
 .intro {
@@ -71,6 +67,7 @@ a {
   color: #444444;
   font-weight: 400;
   font-size: 50px;
+  padding-top: 20px;
 }
 
 .subtitulo {
@@ -95,6 +92,7 @@ a {
   gap: 60px;
   justify-content: center;
   align-items: center;
+  padding: 30px 30px ;
 }
 
 .footer .contenido_footer .footer_redes {
@@ -122,45 +120,42 @@ a {
 
 .copyright {
   text-align: center;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 
 /* ****************   Página Inicio ****************   */
 
 .landing {
-  display: flex ;
-  gap: 150px;
-  flex-flow: row wrap;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
-  padding: 50px 0px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 .landing .escudos {
-  display: block;
+  display: grid;
+  justify-items: center;
+  gap: 20px;
 }
 
-.landing .escudos a{
+.landing .escudos div a{
   text-decoration: none;
   color: #000000;
 }
 
-.landing .escudos a img{
+.landing .escudos div a img{
   height: 300px;
   width: auto;
   -webkit-filter: drop-shadow(5px 5px 5px #222222);
   filter: drop-shadow(5px 5px 5px #222222);
 }
 
-.landing .escudos a img:hover{
+.landing .escudos div a img:hover{
   margin-top: -7px;
   -webkit-filter: drop-shadow(7px 7px 7px #222222);
   filter: drop-shadow(7px 7px 7px #222222);
 }
 
-.landing .escudos p{
+.landing .escudos div a p{
   font-family: 'Source Sans Pro', 'Teko', sans-serif;
   font-weight: 700;
   border: 2px solid black;
@@ -189,7 +184,7 @@ a {
   min-width: 700px;
 }
 
-.reglamento div ul li{
+.reglamento section ul li{
   list-style: none;
 }
 
@@ -338,70 +333,19 @@ a {
 
 /* ****************  Página Contacto ****************  */
 
-.form-content {
-  display: flex;
-  flex-flow: column;
-  align-items: center;
-  }
 
-.hero .form-content .formulario input{
+.formulario-contacto{ 
+  padding: 0% 20%;
   border-radius: 20px;
-  width: 100%;
-  max-width: 700px;
-  padding: 5px;
   font-family: 'NTR', sans-serif;
-  margin: 15px;
 }
 
-.hero .form-content .formulario textarea{
-  height: 300px;
-  width: 100%;
-  border-radius: 20px;
-  padding: 5px;
-  font-family: 'NTR', sans-serif;
+
+
+.campos{
   border: 1px solid black;
-  margin: 15px;
-}
-
-.hero .form-content .formulario #boton{
-  width: 30%;
-}
-
-.respmenu input[type="checkbox"], .respmenu .fa-bars, .respmenu .fa-times {
-  position: absolute;
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  right: 0;
-  top: 0;
-  width: 48px;
-  height: 48px;
+  border-radius: 20px;
+  font-family: 'NTR', sans-serif;
 }
 
 
-
-.menu .fa-bars, .respmenu .fa-times {
-  pointer-events: none;
-}
-
-.menu input[type="checkbox"] {
-  opacity: 0;
-}
-
-
-.menu nav {
-  display: none;
-}
-
-.menu input:checked ~ nav {
-  display: block;
-}
-
-.menu input:checked ~ .fa-bars {
-  display: none;
-  background-color: #000000;
-}
-
-.menu input:not(:checked) ~ .fa-times {
-  display: none;
-}
