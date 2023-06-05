@@ -22,7 +22,7 @@ Sitio para el curso de Desarrollo Web - Comisión #42900 de Coderhouse
 
 -ahora el menú de navegación es una adaptación de un menú de Bootstrap
 
--agregué la página "galería" que incluye un carrousell de Bootstapp
+-agregué la página "galería" que incluye un carousel de Bootstapp
 
 -utilicé Bootstapppara la página de contacto
 
