@@ -1,15 +1,20 @@
 
+
 @media (max-width: 700px) {
   
-  .intro{
-    font-size: 0.7rem;
-  }
   
+  
+  /* ****************   Main ****************   */
   .landing {
     grid-template-columns: 1fr;
     gap: 50px;
   }
   
+  
+  .intro .intro__texto{
+    font-size: 22px;
+    font-weight: bolder;
+  }
   
   .titulo {
     text-align: center;
@@ -18,7 +23,8 @@
     font-size: 30px;
     padding-top: 20px;
   } 
-
+  
+  /* ****************   Footer ****************   */
 
   .footer .contenido_footer{
     grid-template-columns: 1fr; 
@@ -34,7 +40,7 @@
     justify-content: center;
     align-content: center;
   }
-
+  
   .footer-newsletter form{
     align-items: center;
     justify-items: center;
@@ -56,21 +62,39 @@
     font-size: 14px;
   }
   
-  .intro h1{
-    font-size: 22px;
-    font-weight: bolder;
+  /* ****************   Página Reglamento ****************   */
+
+  .reglamento .pdf{
+    width: 90%;
+  }
+
+/* ****************   Página Sponsors ****************   */
+
+  .sponsors .marcas a img{
+    width: 270px;
+    height: auto;
+  }
+
+
+  /* ****************   Página Lugar ****************   */
+
+
+  .lugares {
+    padding-left: 5%;
   }
   
-    .reglamento .pdf{
-      width: 500px;
+  .lugares iframe{
+    width: 95%;
     }
   
-  
-  
-  
-    .formulario-contacto{
-      padding: 0% 5%;
-      border-radius: 20px;
-      font-family: 'NTR', sans-serif;
-    }
+  /* ****************  Página Contacto ****************  */
+  .formulario-contacto{
+    padding: 0% 5%;
+    border-radius: 20px;
+    font-family: 'NTR', sans-serif;
+  }
+
+
 }
+
+

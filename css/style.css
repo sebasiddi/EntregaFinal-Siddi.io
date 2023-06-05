@@ -181,7 +181,7 @@ ol, ul {
 }
 
 .reglamento .pdf{
-  min-width: 700px;
+  width: 700px;
 }
 
 .reglamento section ul li{
@@ -251,6 +251,10 @@ ol, ul {
 }
 
 
+.sponsors .marcas a img{
+  width: 350px;
+}
+
 
 
 /* ****************   Página Calendario ****************   */
@@ -319,16 +323,17 @@ ol, ul {
 /* ****************   Página Lugar ****************   */
 
 .lugares {
+  display: grid;
+  grid-template-columns: 1fr;
   text-align: left;
-  width: 60%;
-  margin-left: 20%;
+  padding-left: 20%;
+  gap: 50px;
 }
 
 .lugares iframe{
-  width: 90%;
+  width: 80%;
   height: 450px;
-  margin-bottom: 50px;
-}
+  }
 
 
 /* ****************  Página Contacto ****************  */
@@ -339,7 +344,6 @@ ol, ul {
   border-radius: 20px;
   font-family: 'NTR', sans-serif;
 }
-
 
 
 .campos{
