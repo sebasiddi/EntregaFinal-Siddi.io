@@ -1,0 +1,36 @@
+
+/* ****************   Página Equipo ****************   */
+
+.profiles {
+  display: flex ;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  .profile_individual {
+    margin: 50px;
+    .profilepic {
+      width: 250px;
+      border-color: #000000;
+      border-width: 1.5px;
+      border-style: solid;
+      border-radius: 200px 200px 200px 0px;
+      -webkit-filter: drop-shadow(5px 5px 5px #222222);
+      filter: drop-shadow(5px 5px 5px #222222);
+    }
+    .profilepic:hover{
+      margin-top: -12px;
+    }
+    .nombres {
+      background-image: url("../imgs/profiles/background_profiles.png");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: 220px;
+      opacity: 0.7;
+      color: white;
+      font-family: Helvetica, sans-serif;
+      font-weight: lighter;
+    }
+  }
+}
+

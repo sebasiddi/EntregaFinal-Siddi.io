@@ -6,6 +6,15 @@ Sitio para el curso de Desarrollo Web - Comisión #42900 de Coderhouse
 
 ## Actualizaciones
 
+-Todos los estilos fueron convertios a SASS y segmentados para un mejor ordenamiento del código
+
+-Utilicé una paleta de colores organizada con un mapa en el estilo SASS de la página de calendario
+
+-Implementé etiquetas meta con descripción y keywords para cada página del sitio en función de mejorar el SEO
+
+
+## Actualizaciones Anteriores
+
 ### Tomé las correcciones de la primera entrega:
 
 -ordené el repositorio con subcarpeta para los archivos HTML que no sean el index

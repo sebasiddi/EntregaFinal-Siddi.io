@@ -1,0 +1,21 @@
+
+/* Animaciones */
+
+
+@keyframes logo-colores{
+  0% {
+    color: black;
+  }
+  50% {
+    color: rgb(177, 175, 175);
+    -webkit-filter: drop-shadow(7px 7px 7px #222222);
+    filter: drop-shadow(7px 7px 7px #222222);
+  }
+  100% {
+    color: black;
+  }
+}
+
+.logo-animado{
+  animation: logo-colores 8s linear 1s infinite normal;
+}

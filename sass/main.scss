@@ -1,0 +1,26 @@
+
+/* ---------ESTILOS GENERALES------ */
+
+@import "reset";
+@import "header";
+@import "hero";
+@import "footer";
+
+
+/* Páginas Individuales */
+
+@import "1inicio";
+@import "2reglamento";
+@import "3equipo";
+@import "4sponsors";
+@import "5calendario";
+@import "6lugar";
+@import "7contacto";
+
+/* Responsive */
+
+@import "mediaQuery";
+
+/* Animaciones */
+
+@import "animaciones";

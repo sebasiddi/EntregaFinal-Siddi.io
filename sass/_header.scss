@@ -1,0 +1,22 @@
+
+/* ****************   Header ****************   */
+
+#header {
+  font-family: 'NTR', serif;
+  font-weight: bolder;
+  }
+
+
+.nav-link:hover{
+  color: white !important;
+  background-color: black;
+ }
+
+ .dropdown-menu{
+  li{
+    a:hover{
+      color: white ;
+      background-color: black;
+    }
+  }   
+}

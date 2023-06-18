@@ -1,0 +1,16 @@
+
+
+/* ****************   Página Lugar ****************   */
+
+.lugares {
+  display: grid;
+  grid-template-columns: 1fr;
+  text-align: left;
+  padding-left: 20%;
+  gap: 50px;
+  iframe{
+    width: 80%;
+    height: 450px;
+    }
+}
+

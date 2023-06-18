@@ -1,0 +1,20 @@
+
+/* ****************   Página Reglamento ****************   */
+
+.reglamento{
+  text-align: center;
+  font-size: 20px;
+  font-family: 'NTR', serif;
+  text-decoration: none;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content:center;
+  gap: 50px;
+  align-items:first baseline;
+  .pdf{
+    width: 700px;
+  }
+  section ul li{
+    list-style: none;
+  }
+}

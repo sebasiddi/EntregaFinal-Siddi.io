@@ -1,0 +1,80 @@
+
+
+/* ****************   Página Calendario ****************   */
+
+$paleta-calendario: (
+ fecha-fondo: rgb(255, 255, 255),
+ fecha-fondo-h: rgb(209, 208, 208),
+ texto-fecha-usddn: rgb(255, 63, 63),
+ texto-fecha-ddyd: rgb(12 192 223),
+ borde-fondo: rgb(0,74,173),
+ data-texto: white,
+ data-texto-h: rgb(228, 228, 228),
+ link-h:black,
+ borde-fondo-h: rgba(31, 128, 254, 0.877),
+);
+
+
+
+.calendarios{
+  display: flex;
+  flex-flow: row wrap;
+  gap: 30px;
+  justify-content:space-around;
+  align-items: first baseline;
+  div h2 img{
+    height: 65px;
+  }
+  .content-fecha {
+    display: flex;
+    width: 360px;
+    justify-content: center;
+    margin: 10px;
+
+    .fecha-usddn{
+      border: 2px solid map-get($paleta-calendario , borde-fondo);
+      height: 30px;
+      width: 25%;
+      height: 90px;
+      padding: 20px;
+      background-color: map-get($paleta-calendario, fecha-fondo);
+      color: map-get($paleta-calendario , texto-fecha-usddn);
+      text-align: center;
+      font-size: 20px;
+    }
+    
+    .fecha-usddn:hover{
+      border: 2px solid map-get($paleta-calendario , borde-fondo);
+      background-color: map-get($paleta-calendario, fecha-fondo-h);
+      color: rgb(42, 127, 247);
+    }
+    
+    .fecha-ddyd{
+      color: map-get($paleta-calendario , texto-fecha-ddyd)
+    }
+    
+    .data-fecha {
+      border: 2px solid map-get($paleta-calendario , borde-fondo);
+      height: 30px;
+      padding: 5px;
+      background-color: map-get($paleta-calendario , borde-fondo);
+      width: 75%;
+      height: 90px;
+      color: map-get($paleta-calendario , data-texto);
+      text-align: left;
+      font-size: 12x;
+      font-family: 'NTR', sans-serif;
+      p{height: 15px;}
+      a{color: map-get($paleta-calendario , data-texto);}
+      a:hover{color: map-get($paleta-calendario , link-h);}
+    }
+    .data-fecha:hover {
+      background-color: map-get($paleta-calendario , borde-fondo-h);
+      color: map-get($paleta-calendario , data-texto-h);
+    }
+  }
+    
+}
+
+
+

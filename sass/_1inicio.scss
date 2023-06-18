@@ -1,0 +1,43 @@
+
+/* ****************   Página Inicio ****************   */
+
+.landing {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  .escudos {
+    display: grid;
+    justify-items: center;
+    gap: 20px;
+    div{
+      a{
+        text-decoration: none;
+        color: #000000;
+        img{
+          height: 300px;
+          width: auto;
+          -webkit-filter: drop-shadow(5px 5px 5px #222222);
+          filter: drop-shadow(5px 5px 5px #222222);
+          transition: all 0.5s;
+        }
+        img:hover{
+          margin-top: -7px;
+          -webkit-filter: drop-shadow(7px 7px 7px #222222);
+          filter: drop-shadow(7px 7px 7px #222222);
+        }
+        p{
+          font-family: 'Source Sans Pro', 'Teko', sans-serif;
+          font-weight: 700;
+          border: 2px solid black;
+          border-radius: 25px;
+          font-size: larger;
+          width: fit-content;
+          padding: 1px 15px;
+        }
+      }
+    }
+  }
+}
+
+
+
+
