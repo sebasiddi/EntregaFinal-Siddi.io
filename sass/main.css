@@ -98,6 +98,9 @@ ol, ul {
 .footer .contenido_footer .mapa ul li a:hover {
   color: rgb(246, 138, 138);
 }
+.footer .contenido_footer .footer_redes h4 {
+  text-align: right;
+}
 .footer .contenido_footer .footer_redes ul li {
   text-align: right;
   font-size: 22px;
