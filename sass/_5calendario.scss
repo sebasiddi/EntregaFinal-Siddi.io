@@ -2,17 +2,6 @@
 
 /* ****************   Página Calendario ****************   */
 
-$paleta-calendario: (
- fecha-fondo: rgb(255, 255, 255),
- fecha-fondo-h: rgb(209, 208, 208),
- texto-fecha-usddn: rgb(255, 63, 63),
- texto-fecha-ddyd: rgb(12 192 223),
- borde-fondo: rgb(0,74,173),
- data-texto: white,
- data-texto-h: rgb(228, 228, 228),
- link-h:black,
- borde-fondo-h: rgba(31, 128, 254, 0.877),
-);
 
 
 
@@ -28,7 +17,7 @@ $paleta-calendario: (
   .content-fecha {
     display: flex;
     width: 360px;
-    justify-content: center;
+    @extend .centrado;
     margin: 10px;
 
     .fecha-usddn{
@@ -46,7 +35,7 @@ $paleta-calendario: (
     .fecha-usddn:hover{
       border: 2px solid map-get($paleta-calendario , borde-fondo);
       background-color: map-get($paleta-calendario, fecha-fondo-h);
-      color: rgb(42, 127, 247);
+      color: map-get($paleta-calendario, texto-usddn-h);
     }
     
     .fecha-ddyd{

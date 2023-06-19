@@ -33,10 +33,6 @@
   .footer{
     .contenido_footer{
       grid-template-columns: 1fr; 
-      justify-items: center;
-      align-items: center;
-      justify-content: center;
-      align-content: center;
       gap: 30px;
       padding: 10px 10px;
       .footer_redes {
@@ -44,20 +40,6 @@
         font-size: 18px;
       }
     }
-    .footer-newsletter{
-      display: grid;
-      align-items: center;
-      justify-items: center;
-      justify-content: center;
-      align-content: center;
-      form{
-        align-items: center;
-        justify-items: center;
-        justify-content: center;
-        align-content: center;
-      }
-    }
-    
     .suscripcion{
       h4{
         font-size: 18px;

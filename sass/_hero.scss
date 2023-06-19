@@ -1,10 +1,9 @@
 
 /* Estilos de cuerpo de páginas - main - */
 
-$color-fondo: linear-gradient(0.06turn, rgb(206, 141, 141) 1%, rgb(78, 163, 232) 99%);
 
 .hero {
-  background: $color-fondo;
+  background: $color-fondo-hero;
   font-family: 'Teko', sans-serif;
   width: 100%;
   text-align: center;
@@ -13,14 +12,12 @@ $color-fondo: linear-gradient(0.06turn, rgb(206, 141, 141) 1%, rgb(78, 163, 232)
   padding-bottom: 50px;
   
   .intro {
-    display: flex;
     width: 100%;
+    display: flex;
+    flex-flow: column;
+    @extend .centrado;
     font-family: 'Source Sans 3', sans-serif;
     font-size: smaller;
-    justify-content: center;
-    flex-flow: column;
-    align-items: center;
-    align-content: center;
     padding: 50px 25%
     }
 

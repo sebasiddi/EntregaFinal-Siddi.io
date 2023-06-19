@@ -8,7 +8,7 @@
   text-decoration: none;
   display: flex;
   flex-flow: row wrap;
-  justify-content:center;
+  @extend .centrado;
   gap: 50px;
   align-items:first baseline;
   .pdf{

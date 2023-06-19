@@ -8,9 +8,13 @@ Sitio para el curso de Desarrollo Web - Comisión #42900 de Coderhouse
 
 -Todos los estilos fueron convertios a SASS y segmentados para un mejor ordenamiento del código
 
--Utilicé una paleta de colores organizada con un mapa en el estilo SASS de la página de calendario
+-Implementé un archivo SASS para gestionar los colores para poder modificarlos dinámicamente con variables que se aplican a partes generales del sitio (hero, footer). 
+ 
+-Allí también hay una paleta colores organizada con un mapa en el estilo SASS de la página de calendario
 
--Implementé etiquetas meta con descripción y keywords para cada página del sitio en función de mejorar el SEO
+-Utilicé etiquetas meta con descripción y keywords para cada página del sitio en función de mejorar el SEO
+
+-Achiqué el peso y tamaño de las imágenes de la galería
 
 
 ## Actualizaciones Anteriores

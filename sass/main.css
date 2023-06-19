@@ -16,6 +16,16 @@ ol, ul {
   padding-left: 0;
 }
 
+.centrado, .calendarios .content-fecha, .sponsors, .profiles, .reglamento, .landing .escudos, .hero .intro {
+  justify-items: center;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+
+/* Colores Hero */
+/* Colores Footer */
+/* Colores Calendario */
 /* ****************   Header ****************   */
 #header {
   font-family: "NTR", serif;
@@ -43,14 +53,11 @@ ol, ul {
   padding-bottom: 50px;
 }
 .hero .intro {
-  display: flex;
   width: 100%;
+  display: flex;
+  flex-flow: column;
   font-family: "Source Sans 3", sans-serif;
   font-size: smaller;
-  justify-content: center;
-  flex-flow: column;
-  align-items: center;
-  align-content: center;
   padding: 50px 25%;
 }
 .hero .titulo {
@@ -91,10 +98,6 @@ ol, ul {
 .footer .contenido_footer .mapa ul li a:hover {
   color: rgb(246, 138, 138);
 }
-.footer .contenido_footer .footer_redes h4 {
-  text-align: right;
-  font-size: 16px;
-}
 .footer .contenido_footer .footer_redes ul li {
   text-align: right;
   font-size: 22px;
@@ -106,13 +109,10 @@ ol, ul {
   list-style: none;
 }
 .footer .links_footer {
-  color: white;
+  color: rgb(255, 255, 255);
 }
 .footer .links_footer img {
   height: 25px;
-}
-.footer .links_footer:hover {
-  color: rgb(184, 184, 184);
 }
 
 .copyright {
@@ -128,7 +128,6 @@ ol, ul {
 }
 .landing .escudos {
   display: grid;
-  justify-items: center;
   gap: 20px;
 }
 .landing .escudos div a {
@@ -164,7 +163,6 @@ ol, ul {
   text-decoration: none;
   display: flex;
   flex-flow: row wrap;
-  justify-content: center;
   gap: 50px;
   align-items: first baseline;
 }
@@ -179,9 +177,6 @@ ol, ul {
 .profiles {
   display: flex;
   flex-flow: row wrap;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
 }
 .profiles .profile_individual {
   margin: 50px;
@@ -219,9 +214,6 @@ ol, ul {
   display: flex;
   flex-flow: row wrap;
   gap: 200px;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
 }
 .sponsors .marcas {
   margin: 40px;
@@ -244,7 +236,6 @@ ol, ul {
 .calendarios .content-fecha {
   display: flex;
   width: 360px;
-  justify-content: center;
   margin: 10px;
 }
 .calendarios .content-fecha .fecha-usddn {
@@ -339,29 +330,12 @@ ol, ul {
   /* ****************   Footer ****************   */
   .footer .contenido_footer {
     grid-template-columns: 1fr;
-    justify-items: center;
-    align-items: center;
-    justify-content: center;
-    align-content: center;
     gap: 30px;
     padding: 10px 10px;
   }
   .footer .contenido_footer .footer_redes {
     text-align: center;
     font-size: 18px;
-  }
-  .footer .footer-newsletter {
-    display: grid;
-    align-items: center;
-    justify-items: center;
-    justify-content: center;
-    align-content: center;
-  }
-  .footer .footer-newsletter form {
-    align-items: center;
-    justify-items: center;
-    justify-content: center;
-    align-content: center;
   }
   .footer .suscripcion h4 {
     font-size: 18px;

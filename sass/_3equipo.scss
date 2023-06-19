@@ -4,9 +4,7 @@
 .profiles {
   display: flex ;
   flex-flow: row wrap;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
+  @extend .centrado;
   .profile_individual {
     margin: 50px;
     .profilepic {

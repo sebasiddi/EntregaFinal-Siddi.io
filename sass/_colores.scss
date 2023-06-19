@@ -1,0 +1,29 @@
+
+/* Colores Hero */
+// El fondo esta en una variable para poder tener opciones de colores mas dinámica
+
+$color-fondo1: linear-gradient(0.06turn, rgb(206, 141, 141) 1%, rgb(78, 163, 232) 99%);
+
+
+$color-fondo-hero: $color-fondo1;
+
+/* Colores Footer */
+
+$color-link-foot: rgb(246, 138, 138);
+$color-fondo-foot: linear-gradient(to right, rgb(58, 58, 58) 0%, rgb(28, 27, 27) 100%);
+
+/* Colores Calendario */
+
+$paleta-calendario: (
+ fecha-fondo: rgb(255, 255, 255),
+ fecha-fondo-h: rgb(209, 208, 208),
+ texto-fecha-usddn: rgb(255, 63, 63),
+ texto-usddn-h: rgb(42, 127, 247),
+ texto-fecha-ddyd: rgb(12 192 223),
+ borde-fondo: rgb(0,74,173),
+ data-texto: white,
+ data-texto-h: rgb(228, 228, 228),
+ link-h:black,
+ borde-fondo-h: rgba(31, 128, 254, 0.877),
+);
+

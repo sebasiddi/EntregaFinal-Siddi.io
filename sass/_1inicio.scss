@@ -6,7 +6,7 @@
   grid-template-columns: 1fr 1fr;
   .escudos {
     display: grid;
-    justify-items: center;
+    @extend .centrado;
     gap: 20px;
     div{
       a{
