@@ -15,6 +15,12 @@
     justify-content: flex-start;
     align-items:flex-start;
     padding: 30px 30px ;
+    max-width: 1400px;
+    margin: 0 auto;
+    .footer-newsletter{
+      input{display:block}
+      input:not(.btn){width:100%}
+    }
     .mapa ul li {
       list-style: none;
       a{color: white;}
@@ -33,16 +39,16 @@
         }
       }
     }
-  }
-  .links_footer {
-    color:rgb(255, 255, 255);
-    img{
-      height: 25px;
+    .links_footer {
+      color:rgb(255, 255, 255);
+      img{
+        height: 25px;
+      }
     }
+    
   }
-}
-
-.copyright {
-  text-align: center;
-  font-size: 16px;
+  .copyright {
+    text-align: center;
+    font-size: 16px;
+  }
 }

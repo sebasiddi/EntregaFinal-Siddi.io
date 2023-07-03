@@ -1,12 +1,12 @@
 
 /* Media Query */
 
-
+/*---------------- MOBILE ----------------- */
 @media (max-width: 700px) {
   
   
   
-  /* ****************   Main ****************   */
+  /* **************** Main Mobile **************** */
 
   .landing {
     grid-template-columns: 1fr;
@@ -28,15 +28,22 @@
     padding-top: 20px;
   } 
   
-  /* ****************   Footer ****************   */
+  /* **************** Footer Mobile **************** */
 
   .footer{
     .contenido_footer{
       grid-template-columns: 1fr; 
       gap: 30px;
       padding: 10px 10px;
+      .footer-newsletter{
+        margin: 0 auto;
+        input{margin: 0 auto;}
+        label{h4{text-align: center;}}
+      }
+
       .footer_redes {
-        text-align: center;
+        h4{text-align: center;}
+        ul li{text-align: center;}
         font-size: 18px;
       }
     }
@@ -48,14 +55,22 @@
     }
     .mapa{
      text-align: center;
+     font-size: 20px;
     }
     .copyright {
       padding-top: 20px;
       font-size: 14px;
     }
-    
+ 
   }
-  /* ****************   Página Reglamento ****************   */
+
+  /* ***************** Equipo Mobile ***************** */
+
+  .profiles {
+    display: flex ;
+    flex-flow: row wrap;
+  }
+  /* ****************  Reglamento Mobile **************** */
 
   .reglamento{
    .pdf{
@@ -63,7 +78,7 @@
     }
   }
 
-/* ****************   Página Sponsors ****************   */
+/* **************** Sponsors Mobile **************** */
 
   .sponsors{
     .marcas{
@@ -76,7 +91,7 @@
     }
   }
 
-  /* ****************   Página Lugar ****************   */
+  /* **************** Lugar Mobile **************** */
 
 
   .lugares {
@@ -85,13 +100,128 @@
       width: 95%;
       }
   }
-  
-  /* ****************  Página Contacto ****************  */
-  
+
+  /* **************** Contacto Mobile **************** */
   .formulario-contacto{
-    padding: 0% 5%;
-    border-radius: 20px;
-    font-family: 'NTR', sans-serif;
+    width: 90%;
   }
 
+}
+
+
+/* ----------------- TABLET ------------------- */
+
+@media (max-width: 1024px) and (min-width:701px) {
+  
+  
+  
+  /* **************** Footer Tablet ***************** */
+
+  .footer{
+    .contenido_footer{
+      grid-template-columns: 1fr; 
+      gap: 30px;
+      padding: 10px 10px;
+      
+      .footer-newsletter{
+        width: 600px;
+        margin: 0 auto;
+        input{margin: 0 auto;}
+        input:not(.btn){max-width: 80%;}
+        label{h4{text-align: center;}}
+      
+      }
+    
+      .footer_redes {
+        h4{text-align: center;}
+        ul li{text-align: center;}
+        font-size: 18px;
+      }
+    }
+    .suscripcion{
+      h4{
+        font-size: 20px;
+        text-align: center;
+      }
+    }
+    .mapa{
+     text-align: center;
+     font-size: 20px;
+    }
+    .copyright {
+      padding-top: 20px;
+      font-size: 14px;
+    }
+  }
+
+  /* ***************** Landing Tablet ***************** */
+
+  
+  .landing {
+    gap: 40px;
+  }
+  
+    .intro{
+    .intro__texto{
+      font-size: 26px;
+      font-weight: bolder;
+    }
+  }  
+  
+  .titulo {
+    text-align: center;
+    color: #444444;
+    font-weight: 200;
+    font-size: 30px;
+    padding-top: 20px;
+  } 
+
+
+  /* *****************  Equipo Tablet ***************** */
+  .profiles{
+    
+    .profile_individual{
+      margin: 40px;
+      .profilepic {
+        width: 200px;
+      }
+
+      #ailen{background-size: 260px;}
+      #mercedes{background-size: 170px}
+      .nombres{
+        background-size: 145px;
+        h4, h5{font-size: 12px}
+      }
+    }
+  }
+
+  /* ****************  Contacto Tablet **************** */
+  .formulario-contacto{
+    width: 85%;
+  }
+
+
+}
+
+
+  
+/* Medida para ajustar página de EQUIPO entre Tablet y Mobile */
+@media (max-width: 856px) and (min-width: 701px){
+
+  .profiles{
+    display: block;
+    .profile_individual {
+      margin: 50px;
+      .profilepic {
+        width: 250px;
+      }
+      #ailen{background-size: 360px;}
+      #mercedes{background-size: 270px}
+     
+      .nombres {
+        background-size: 220px;
+        h4, h5{font-size: 18px}
+      }
+    }  
+  }
 }

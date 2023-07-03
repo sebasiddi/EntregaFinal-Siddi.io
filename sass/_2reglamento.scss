@@ -13,6 +13,10 @@
   align-items:first baseline;
   .pdf{
     width: 700px;
+    embed{
+      width:92%;
+      height:600px
+    }
   }
   section ul li{
     list-style: none;

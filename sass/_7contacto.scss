@@ -2,9 +2,12 @@
 /* ****************  Página Contacto ****************  */
 
 .formulario-contacto{ 
-  padding: 0% 20%;
+  padding: 0%;
+  margin: 0 auto;
   border-radius: 20px;
   font-family: 'NTR', sans-serif;
+  width: 80%;
+  max-width: 900px;
   .campos{
     border: 1px solid black;
     border-radius: 20px;
